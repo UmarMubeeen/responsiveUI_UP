@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-cream grid h-screen place-content-center">
+    <main
+      class="my-6 md:p-0 bg-whiteNew flex flex-col md:flex-row rounded-xl overflow-hidden shadow-xl w-[320px] md:w-[600px]"
+    >
+      <div class="w-[300px] flex-shrink-0">
+        <img
+          class="hidden md:block"
+          src="./image-product-desktop.jpg"
+          alt="Product Image"
+        />
+      </div>
+      <div>
+        <img
+          class="md:hidden"
+          src="./image-product-mobile.jpg"
+          alt="Product Image"
+        />
+      </div>
+      <div class="flex flex-col m-8 basis-1/2">
+        <p
+          class="font-montserrat text-darkGrayishBlue text-sm md:text-base font-medium mb-2"
+        >
+          P E R F U M E
+        </p>
+        <h1
+          class="font-fraunces text-veryDarkBlue text-3xl md:text-4xl font-extrabold mb-6"
+        >
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="font-montserrat text-darkGrayishBlue font-medium text-sm">
+          A floral, solar and voluptuous interpretation composed by Oliver
+          Polge, Perfumer-creator for the house of CHANEL.
+        </p>
+        <p class="text-3xl font-bold text-darkCyan my-6 font-fraunces">
+          $149.99
+          <span
+            class="ml-3 text-sm line-through font-montserrat text-darkGrayishBlue align-text-top"
+          >
+            $169.99</span
+          >
+        </p>
+        <button
+          class="w-full text-white bg-darkCyan rounded-md py-3 font-montserrat text-sm font-semibold cursor-pointer hover:bg-extradarkCyan"
+        >
+          <i class="fas fa-shopping-cart mr-3"></i>Add to Cart
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
