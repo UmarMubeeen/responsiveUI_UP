@@ -12,4 +12,7 @@
   .card_text {
     @apply text-grayishBlue text-sm font-poppins;
   }
+  .card_outline {
+    @apply border-transparent rounded-lg shadow-xl;
+  }
 }
