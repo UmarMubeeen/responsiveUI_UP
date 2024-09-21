@@ -20,6 +20,15 @@ module.exports = {
           // Neutral colors
           veryDarkBlue: 'hsl(212, 21%, 14%)',
           darkGrayishBlue: 'hsl(228, 12%, 48%)',
+
+
+          newred: 'hsl(0, 78%, 62%)',
+          newcyan: 'hsl(180, 62%, 55%)',
+          neworange: 'hsl(34, 97%, 64%)',
+          newblue: 'hsl(212, 86%, 64%)',
+          extraDarkBlue: 'hsl(234, 12%, 34%)',
+          grayishBlue: 'hsl(229, 6%, 66%)',
+          veryLightGray: 'hsl(0, 0%, 98%)',
         },
         fontFamily: {
           inter: ['Inter', 'sans-serif'], // Add Inter font family
@@ -28,6 +37,7 @@ module.exports = {
 
           montserrat: ['"Montserrat"', 'sans-serif'],
           fraunces: ['"Fraunces"', 'serif'],
+          poppins: ['Poppins', 'sans-serif'],
         },
       },
     },
